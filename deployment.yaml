@@ -10,7 +10,7 @@ metadata:
   selfLink: /apis/extensions/v1beta1/namespaces/simple-app/deployments/httpd
 spec:
   progressDeadlineSeconds: 600
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 10
   selector:
     matchLabels:
