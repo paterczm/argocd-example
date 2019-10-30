@@ -1,0 +1,9 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: httpd
+spec:
+  strategy:
+    rollingUpdate:
+      maxUnavailable: 0%
+    type: RollingUpdate
