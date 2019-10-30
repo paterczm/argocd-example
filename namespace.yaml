@@ -5,6 +5,8 @@ metadata:
     openshift.io/sa.scc.mcs: s0:c23,c7
     openshift.io/sa.scc.supplemental-groups: 1000520000/10000
     openshift.io/sa.scc.uid-range: 1000520000/10000
+  label:
+    foo: bar
   creationTimestamp: null
   name: simple-app
   selfLink: /api/v1/namespaces/simple-app
