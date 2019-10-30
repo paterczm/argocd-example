@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  annotations:
+    openshift.io/host.generated: "true"
+  creationTimestamp: null
+  labels:
+    app: httpd
+  name: httpd
+  selfLink: /apis/route.openshift.io/v1/namespaces/simple-app/routes/httpd
+spec:
+  host: httpd-simple-app.apps.opsme9.os4-sandbox.paas.redhat.com
+  port:
+    targetPort: 8080
+  subdomain: ""
+  to:
+    kind: Service
+    name: httpd
+    weight: 100
+  wildcardPolicy: None
+status:
+  ingress: null
