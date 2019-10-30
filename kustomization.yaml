@@ -1,0 +1,5 @@
+commonLabels:
+  label: addedByKustomize
+resources:
+- deployment.yaml
+- service.yaml
