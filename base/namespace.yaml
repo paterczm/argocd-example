@@ -9,7 +9,6 @@ metadata:
     foo: bar
   creationTimestamp: null
   name: simple-app
-  selfLink: /api/v1/namespaces/simple-app
 spec:
   finalizers:
   - kubernetes
