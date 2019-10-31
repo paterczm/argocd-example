@@ -5,3 +5,4 @@ resources:
 patches:
 - patch_deployment.yaml
 namePrefix: preprod-
+namespace: simple-app
