@@ -5,3 +5,4 @@ resources:
 patchesStrategicMerge:
 - patch_deployment.yaml
 namePrefix: prod-
+namespace: prod-simple-app
