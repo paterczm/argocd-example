@@ -1,0 +1,7 @@
+commonLabels:
+  env: preprod
+resources:
+- ../base
+patches:
+- patch_deployment.yaml
+namePrefix: preprod-

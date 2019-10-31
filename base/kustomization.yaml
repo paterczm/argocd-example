@@ -5,5 +5,3 @@ resources:
 - service.yaml
 - namespace.yaml
 - route.yaml
-patches:
-- patch_deployment.yaml

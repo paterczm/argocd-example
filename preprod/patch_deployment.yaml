@@ -3,7 +3,8 @@ kind: Deployment
 metadata:
   name: httpd
 spec:
+  replicas: 2
   strategy:
     rollingUpdate:
-      maxUnavailable: 0%
+      maxUnavailable: 50%
     type: RollingUpdate
